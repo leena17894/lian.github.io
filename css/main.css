@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+.container{
+    width: 1606px;
+    height: 2600px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+header{
+    width: 1606px;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 5px 1px rgba(163, 163, 163, 0.1);
+}
+
+.logo1{
+    padding-top: 27px;
+    padding-left: 229px;
+    float:left;
+}
+
+.sliders{
+    width: 1606px;
+    height: 650px;
+    background-image: url(..//img1/main-bg.png);
+    display: flex;
+    background-color: #000;
+}
+
+.sliders-text{
+    margin-top: 267px;
+    margin-left: 449px;
+}
+
+.sliders-title{
+    width: 620px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    padding: 14px 43px;
+    background-color: #000;
+    
+}
+
+.sliders-subtitle{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.line1{
+    padding-top: 33px;
+    padding-left: 227px;
+    padding-bottom: 15px;
+}
+
+.nav{
+    width: 531px;
+    height: 15px;
+    color: #777777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 1140px;
+    margin-top: 35px;
+    margin-left: 191px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 15px;
+    padding-bottom: 28px;
+}
+
+.nav2{
+    width: 728px;
+    height: 11px;
+    color: #777777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 229px;
+}
+
+.content .nav2 img{
+    width: 13px;
+    height: 30px; 
+}
+
+li{
+    display: inline-block;
+}
+
+li a:hover{
+    color: black;
+}
+.line2{
+    padding: 22px 0 0 227px;
+    margin-top: 15px;
+} 
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 360px;
+    height: 350px;
+    
+    margin-top: 29px;
+    margin-left: 228px;
+}
+
+.img2{
+    width: 360px;
+    height: 250px;
+    
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.img3{
+   width: 360px;
+    height: 450px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.img4{
+    width: 360px;
+    height: 250px;
+    margin-top: -66px;
+    margin-left: 228px;
+}
+
+.img5{
+    width: 360px;
+    height: 350px
+    background-color: #000000;
+    margin-top: -164px;
+    margin-left: 30px;
+}
+
+.img6{
+    width: 360px;
+    height: 250px;
+    margin-top: 34px;
+    margin-left: 30px;
+}
+
+.img7{
+    width: 360px;
+    height: 450px;
+    margin-top: -56px;
+    margin-left: 228px;
+}
+
+.img8{
+    width: 360px;
+    height: 250px;
+    margin-top: -56px;
+    margin-left: 30px;
+}
+
+.img9{
+    width: 360px;
+    height: 350px;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.img10{
+    width: 360px;
+    height: 350px;
+    margin-top: -165px;
+    margin-left: 617px;
+}
+
+.photos-button{
+    padding: 7px;
+    background-color: #959595;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+    display: block;
+    width: 125px;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 732px;
+}
+
+footer{
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 155px;
+}
+
+.logo2{
+    margin-top: 64px;
+}
+
+.social{
+    margin-top: 44px;
+    border: 1px solid black;
+    width: 1603px;
+    height: 56px;
+    border: 1px solid #ebebeb; 
+}
+
+.info__socials{
+    width: 420px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-left: 593px;
+}
+
+footer p{
+    padding-top: 37px;
+    color: #9c9c9c;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}

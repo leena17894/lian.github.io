@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.container{
+    width: 1600px;
+    height: 2420px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+header{
+    width: 1600px;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 5px 1px rgba(163, 163, 163, 0.1);
+}
+
+.logo1{
+    padding-top: 27px;
+    padding-left: 229px;
+    float:left;
+}
+
+.nav{
+    width: 531px;
+    height: 15px;
+    color: #777777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+}
+
+li a:hover{
+    color: black;
+}
+
+.sliders{
+    width: 1600px;
+    height: 350px;
+    background-color: #e2e2e2;
+    display: flex;
+}
+
+.sliders-text{
+    padding-top: 126px;
+    padding-left: 233px;
+    
+}
+
+.sliders-block{
+    width: 540px;
+    height: 56px;
+    background-color: #000000;
+}
+
+.sliders-title{
+    height: 34px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 32px;
+    letter-spacing: 4.8px;
+    
+}
+
+.sliders-subtitle{
+    
+    height: 15px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 6.9px;
+    padding-top: 44px;
+}
+
+.line1{
+    padding-top: 33px;
+    padding-left: 227px;
+    padding-bottom: 15px;
+}
+
+.nav2{
+    width: 728px;
+    height: 11px;
+    color: #777777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 431px;
+}
+
+.content .nav2 img{
+    width: 13px;
+    height: 30px; 
+}
+
+li{
+    display: inline-block;
+}
+
+li a:hover{
+    color: black;
+}
+.line2{
+    padding: 22px 0 0 227px;
+    margin-top: 15px;
+} 
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.img1{
+    width: 360px;
+    height: 350px;
+    
+    margin-top: 29px;
+    margin-left: 228px;
+}
+
+.img2{
+    width: 360px;
+    height: 250px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.img3{
+   width: 360px;
+    height: 450px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.img4{
+    width: 360px;
+    height: 250px;
+    margin-top: -66px;
+    margin-left: 228px;
+}
+
+.img5{
+    width: 360px;
+    height: 350px;
+    background-color: #000000;
+    margin-top: -164px;
+    margin-left: 30px;
+}
+
+.img6{
+    width: 360px;
+    height: 250px;
+    margin-top: 34px;
+    margin-left: 30px;
+}
+
+.img7{
+    width: 360px;
+    height: 450px;
+    margin-top: -56px;
+    margin-left: 228px;
+}
+
+.img8{
+    width: 360px;
+    height: 250px;
+    margin-top: -56px;
+    margin-left: 30px;
+}
+
+.img9{
+    width: 360px;
+    height: 350px;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.img10{
+    width: 360px;
+    height: 350px;
+    margin-top: -165px;
+    margin-left: 617px;
+    margin-bottom: 90px;
+}
+
+.photos-button{
+    padding: 15px;
+    background-color: #959595;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+    display: block;
+    width: 125px;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 727px;
+}
+
+footer{
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 73px;
+}
+
+.logo2{
+    margin-top: 64px;
+}
+
+.social{
+    margin-top: 44px;
+    border: 1px solid black;
+    width: 1603px;
+    height: 56px;
+    border: 1px solid #ebebeb;
+    
+}
+
+.info__socials{
+    width: 420px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-left: 593px;
+    
+}
+
+footer p{
+    padding-top: 37px;
+    color: #9c9c9c;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
